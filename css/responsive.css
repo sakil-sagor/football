@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1250px) {
+    .container{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .menu-area{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+    h1{
+        font-size: 50px;
+        
+    }
+    .all-blog,
+    .all-players{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-gap: 30px;
+   }
+   h2{
+    font-size: 38px;
+   }
+}
+@media only screen and (max-width: 768px) {
+    .highlight-area,
+    .hero-content{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+    }
+    .left-content{
+        text-align: center;
+    }
+    .right-content{
+        margin-top: 100px;
+    }
+    h1{
+        font-size: 40px;
+        
+    }
+    .all-blog,
+    .all-players{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       grid-gap: 30px;
+   }
+   .top-content{
+    width: 90%;
+   }
+   .name-pass{
+    display: block;
+   
+}
+   .name-pass input{
+    width: 100%;
+}
+   input[type="submit"]{
+    display: block;
+    width: 100%;
+}
+
+
+}

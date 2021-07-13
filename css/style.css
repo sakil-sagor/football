@@ -1,0 +1,264 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 64px;
+    color: white;
+}
+h2{
+    font-size: 48px;
+    color: #0A0826;
+}
+h3{
+    font-size: 28px;
+}
+h4{
+    font-size: 19px;
+}
+h5{
+    font-size: 18px;
+    
+}
+a{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    padding: 11px 17px;
+}
+a:hover{
+    color:#ed563b;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #7a7a7a;
+}
+span{
+    color:#ed563b;
+}
+.button{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    background: #E02C6D;
+    display: inline-block;
+    padding: 10px 24px;
+    border: none;
+    transition: .5s;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.button:hover{
+    color: white;
+    background: #501005;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    margin:0 5px;
+}
+li a{
+    
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+}
+li a i{
+    color: #2D25A0;
+    background: transparent;
+    border: 1px solid #2D25A0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 15px;
+    vertical-align: middle;
+    padding: 15px;
+    box-sizing: content-box;
+}
+li a:hover i{
+    color:#ed563b;
+    border: 1px solid #ed563b;
+}
+
+
+.container{
+    max-width: 1200px;
+    padding: 100px 0;
+    margin: auto;
+}
+
+/*--------------------------------
+ header area style start here 
+ --------------------------------*/
+ .header{
+     background-color: #2D25A0;
+ }
+ .header .container{
+    padding: 30px 0;
+ }
+ 
+ .hero-menu{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .highlight-area,
+ .hero-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+}
+.right-content{
+    width: 100%;
+}
+.right-content img{
+    width: 100%;
+}
+.menu-bar{
+    display: none;
+    font-size: 40px;
+    color: white;
+}
+/*--------------------------------
+ players-area style start here 
+ --------------------------------*/
+ .all-blog,
+ .all-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+ .box{
+    padding: 25px;
+    box-shadow: 0px 0px 15px -1px #61587987;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.box:hover{
+    box-shadow: 0px 0px 15px -1px #615879;
+ }
+ .box img{   
+     width: 100%;
+     border-radius: 10px;
+}
+.highlight-area p,
+.box h3{
+    margin: 15px 0;
+}
+/*--------------------------------
+ highlight-area style start here 
+ --------------------------------*/
+.highlight{
+    background-color: #2D25A0;
+}
+.highlight-area p,
+.highlight-area h2{
+    color: white;
+}
+.highlight-area p{
+    margin: 40px 0;
+}
+
+/*--------------------------------
+ highlight-area style start here 
+ --------------------------------*/
+.top-area{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.top-area h2{
+    margin-bottom: 30px;
+}
+
+/*--------------------------------
+ blog-area style start here 
+ --------------------------------*/
+.contact{
+    background-color: #2D25A0;
+}
+.top-content{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.top-content p,
+.top-content h2{
+    color: white;
+    margin: 20px;
+}
+.arrow-button{
+    text-align: center;
+    margin-top: 50px;
+    color: #2D25A0;
+}
+.arrow-button i{
+    font-size: 20px;
+    color: #ed563b;
+    margin: 0 10px;
+    
+
+}
+/*--------------------------------
+ contact-area style start here 
+ --------------------------------*/
+form{
+    margin: 5%;
+    border-radius: 10px;
+    background: white;
+    padding: 5%;
+}
+textarea,
+input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.name-pass{
+    display: flex;
+    justify-content: space-between;
+}
+.name-pass input{
+    width: 47%;
+}
+input[type="submit"]{
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+/*--------------------------------
+ footer-area style start here 
+ --------------------------------*/
+
+
+.footer-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-logo img{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.footer-copyright{
+    margin-top: 20px;
+}
