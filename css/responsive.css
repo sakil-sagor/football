@@ -1,8 +1,14 @@
+/* -----------------------------------------
+larg device and small device default width 
+-------------------------------------------*/
 @media only screen and (max-width: 1250px) {
     .container {
         width: 95%;
     }
 }
+/* -----------------------------------------
+Tablet or ipad devices
+-------------------------------------------*/
 @media only screen and (max-width: 992px) {
     .menu-area {
         display: none;
@@ -23,6 +29,9 @@
         font-size: 38px;
     }
 }
+/* -----------------------------------------
+Mobile devices
+-------------------------------------------*/
 @media only screen and (max-width: 768px) {
     .hero-content,
     .highlight-area {
